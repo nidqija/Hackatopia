@@ -1,0 +1,19 @@
+.background{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://ufmsecretariat.org/wp-content/uploads/2020/11/stop-violence-against-women-background-isolated-on-PL2SYV2-2560x710.jpg');
+    background-size: cover;
+}
+
+#cardOfHeroSection{
+   background-color: transparent;
+   border-color: transparent;
+}
+
+@font-face {
+    font-family: Hanken Grotesk;
+    src: url(../public/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family:Playfair Display ;
+    src: url(../public/PlayfairDisplay-VariableFont_wght.ttf);
+}
