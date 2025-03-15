@@ -8,6 +8,7 @@ function HomePage() {
             <Navbar1 />
             <HeaderSection />
             <IntroHeader/>
+            <br></br>
         </>
     );
 }
