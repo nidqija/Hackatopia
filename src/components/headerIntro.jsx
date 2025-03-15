@@ -34,8 +34,50 @@ function IntroHeader() {
 
 
    <div className='ViolenceStatistics'>
-     <h1 className='text-center text-white p-4'>What Violence Has Costed Us So Far</h1>
-     
+     <h1 className='text-center text-white p-5' style={{fontFamily : "Playfair Display"}}>What Violence Has Costed Us So Far</h1>
+     <Container className='p-4' >
+     <Row xs={3} md={4} className="g-4">
+        <Col>
+          <Card className='text-center'>
+            <Card.Body className='StatisticsBody'>
+              <Card.Title className='StatisticsBodyHeader'>458,000</Card.Title>
+              <Card.Text className='StatisticsBodyDesc'>
+              people were murdered worldwide in 2021—most were men.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col>
+          <Card className='text-center'>
+            <Card.Body className='StatisticsBody'>
+              <Card.Title className='StatisticsBodyHeader'>53%</Card.Title>
+              <Card.Text className='StatisticsBodyDesc'>
+                increment of civilians who died in wars , from 2021 to 2022
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>   <Col>
+          <Card className='text-center'>
+            <Card.Body className='StatisticsBody'>
+              <Card.Title className='StatisticsBodyHeader'>81,000 </Card.Title>
+              <Card.Text className='StatisticsBodyDesc'>
+              women were killed in 2020, most by partners or family members.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>   <Col>
+          <Card className='text-center'>
+            <Card.Body className='StatisticsBody'>
+              <Card.Title className='StatisticsBodyHeader'>1 in 8 women</Card.Title>
+              <Card.Text className='StatisticsBodyDesc'>
+              were sexually assaulted before the age of 18.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+        
+    </Row>
+    </Container>
    </div>
    </>
   );

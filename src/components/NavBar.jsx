@@ -13,6 +13,7 @@ function Navbar1() {
             <Nav.Link href="#home"  className='mx-3 '>Home</Nav.Link>
             <Nav.Link href="#features" className='mx-3'>Intiatives</Nav.Link>
             <Nav.Link href="#pricing"  className='mx-3'>Our HQ</Nav.Link>
+            <Nav.Link href="#pricing"  className='mx-3'>Join Us</Nav.Link>
             <Nav.Link href='#About_us' className='mx-3'>Contact Us</Nav.Link>
           </Nav>
         </Container>
