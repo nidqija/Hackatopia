@@ -3,7 +3,7 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/esm/Container';
 import { Datalist2 } from '../assets/data';
 import Row from 'react-bootstrap/Row';
-
+import Button from 'react-bootstrap/Button';
 
 function IntroHeader() {
   return (
@@ -46,6 +46,7 @@ function IntroHeader() {
               </Card.Text>
             </Card.Body>
           </Card>
+          <h1 className='StatisticsBodySource p-3'>based on United Nations Office on Drugs and Crimes</h1>
         </Col>
         <Col>
           <Card className='text-center'>
@@ -56,6 +57,7 @@ function IntroHeader() {
               </Card.Text>
             </Card.Body>
           </Card>
+          <h1 className='StatisticsBodySource p-3'>based on United Nations</h1>
         </Col>   <Col>
           <Card className='text-center'>
             <Card.Body className='StatisticsBody'>
@@ -65,6 +67,7 @@ function IntroHeader() {
               </Card.Text>
             </Card.Body>
           </Card>
+          <h1 className='StatisticsBodySource p-3'>based on United Nations Women</h1>
         </Col>   <Col>
           <Card className='text-center'>
             <Card.Body className='StatisticsBody'>
@@ -74,11 +77,42 @@ function IntroHeader() {
               </Card.Text>
             </Card.Body>
           </Card>
+          <h1 className='StatisticsBodySource p-3'>based on AP News</h1>
         </Col>
         
     </Row>
     </Container>
    </div>
+
+     <div className='WhatWeCanDo'>
+      <Container className='p-4'>
+      <Row xs={2} md={2} className="g-4">
+        <Col >
+          <Card className='InitiativesTeaserCard p-4 mt-5'>
+            <Card.Body className='p-4 m-4'>
+              <Card.Title className='InitiativesTeaserCardTitle mb-4'>See our Initiatives</Card.Title>
+              <Card.Text className='InitiativesTeaserCardDesc'>
+              Check out our initiatives from time to time as we actively campaign for positive change through awareness programs, community outreach, and advocacy efforts. From organizing educational workshops to launching social media movements, we strive to raise awareness and drive meaningful action toward a safer and more just society.
+              </Card.Text>
+              <Button variant="primary" href=''>Proceed to next page</Button>
+
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col >
+          <Card className='InitiativesTeaserCard p-4 mt-5'>
+            <Card.Img variant="top" src="https://s3.eu-west-2.amazonaws.com/wagggs.prod/images/malayisa_group_training.2e16d0ba.fill-640x360-c50.jpg" />
+            <Card.Body>
+           
+            </Card.Body>
+          </Card>
+        </Col>
+    
+    </Row>
+      </Container>
+
+     </div>
+      
    </>
   );
 }

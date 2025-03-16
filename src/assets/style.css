@@ -20,7 +20,6 @@
 
 .ViolenceStatistics{
     background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) , url("https://static.euronews.com/articles/stories/04/59/69/94/1440x810_cmsv2_f1c5e818-7abe-5a1c-8112-380df438a0e7-4596994.jpg");
-    height: 500px;
     background-position: 1px;
     
 }
@@ -37,4 +36,28 @@
 .StatisticsBodyDesc{
     font-size: 15px;
     font-family: "Hanken Grotesk";
+}
+
+.StatisticsBodySource{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Hanken Grotesk';
+}
+
+
+
+
+.InitiativesTeaserCard{
+    border: none;
+}
+
+.InitiativesTeaserCardTitle{
+font-family: 'Playfair Display';
+font-size: 30px;
+}
+
+.InitiativesTeaserCardDesc{
+font-family: 'Hanken Grotesk';
+font-family: 20px;
 }
