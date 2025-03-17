@@ -1,7 +1,7 @@
 import HomePage from './pages/homePage';
 import { useState , useEffect } from 'react';
 import { BrowserRouter as Router, Routes , Route } from 'react-router-dom';
-import BlogsPage from './pages/blogsPage';
+import InitiativePage from './pages/initiativesPage';
 
 function App() {
 
@@ -22,7 +22,7 @@ function App() {
  <Router>
     <Routes>
        <Route path='/' element={<HomePage />}/>
-       <Route path='/blogs' element={<BlogsPage/>} />
+       <Route path='/initiatives' element={<InitiativePage/>} />
     </Routes>
   </Router>
   );

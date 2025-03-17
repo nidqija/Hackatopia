@@ -3,7 +3,7 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/esm/Container';
 import { Datalist2 } from '../assets/data';
 import Row from 'react-bootstrap/Row';
-import Button from 'react-bootstrap/Button';
+import { Link } from "react-router-dom";
 
 function IntroHeader() {
   return (
@@ -94,7 +94,7 @@ function IntroHeader() {
               <Card.Text className='InitiativesTeaserCardDesc'>
               Check out our initiatives from time to time as we actively campaign for positive change through awareness programs, community outreach, and advocacy efforts. From organizing educational workshops to launching social media movements, we strive to raise awareness and drive meaningful action toward a safer and more just society.
               </Card.Text>
-              <Button variant="primary" href=''>Proceed to next page</Button>
+              <Link to="/initiatives" className='InitiativesTeaserButton p-2' >Proceed to next page</Link>
 
             </Card.Body>
           </Card>

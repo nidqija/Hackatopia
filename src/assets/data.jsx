@@ -11,3 +11,11 @@ export const Datalist2 = [
 ]
 
 
+export const headerCoverList = [
+    {id : 1 , title : "Our Initiatives" , description : "Ever wondered why we are advocating this campaign? Check out our initiatives for society since our earliest times!"},
+    {id : 2 , title : "Join Us" , description : "dhsfkdjsfjsdlfjsdlfsjdlfjdslfsjdlfklsdfjlsdfj"}
+]
+
+
+
+
