@@ -20,7 +20,7 @@ function NextPage({ item }) {
                 </Col>
                 <Col>
                     <Card className='InitiativesTeaserCard p-4 mt-5'>
-                        <Card.Img variant="top" src="https://s3.eu-west-2.amazonaws.com/wagggs.prod/images/malayisa_group_training.2e16d0ba.fill-640x360-c50.jpg" />
+                        <Card.Img variant="top" src={item.image} />
                         <Card.Body></Card.Body>
                     </Card>
                 </Col>

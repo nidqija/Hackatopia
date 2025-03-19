@@ -18,7 +18,7 @@ function InitiativePage(){
       ))}
     </div>
 
-    <div style={{backgroundColor : "blue"}}>
+    <div style={{backgroundColor : "white"}}>
       {routePage.filter(item => item.id === 1).map(item =>(
         <NextPage key={item.id} item = {item}/>
       ))}

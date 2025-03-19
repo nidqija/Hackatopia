@@ -24,7 +24,7 @@ export const listofInitiatives = [
 ]
 
 export const routePage = [
-    {id : 1 , routepage :"/joinus" , title : "go to join us page" , description : "want to join us? go to next session!"}
+    {id : 1 , routepage :"/joinus" , title : "go to join us page" , description : "want to join us? go to next session!" , image : "https://content.api.news/v3/images/bin/200279f52dad45b589170f124ae44904"}
 ]
 
 
