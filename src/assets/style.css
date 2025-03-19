@@ -80,3 +80,12 @@ font-family: 20px;
     background-color: transparent;
     border-color: transparent;
 }
+
+.ActivityTitle{
+    font-family: 'Playfair Display';
+}
+
+.ActivityDesc{
+    font-family: 'Hanken Grotesk';
+    text-align: justify;
+}

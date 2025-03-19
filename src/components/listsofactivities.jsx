@@ -7,11 +7,11 @@ function ListOfActivities({item}){
     return(
 <Container>
     <Row xs={1} md={2} className="g-4">
-        <Col>
+        <Col className='md-4'>
           <Card className='mb-5 p-2'>
             <Card.Body>
-              <Card.Title>{item.title}</Card.Title>
-              <Card.Text>
+              <Card.Title className='ActivityTitle'>{item.title}</Card.Title>
+              <Card.Text className='ActivityDesc'>
                 {item.description}
               </Card.Text>
             </Card.Body>
@@ -19,7 +19,7 @@ function ListOfActivities({item}){
         </Col>
         <Col>
           <Card className='mb-5 p-2' id='InitiativeImage'>
-          <Card.Img variant="top" style={{width : "450px"}} src={item.image} />
+          <Card.Img variant="top"  src={item.image} />
             <Card.Body>
             </Card.Body>
           </Card>

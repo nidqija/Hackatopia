@@ -1,8 +1,8 @@
-import { headerCoverList, listofInitiatives } from "../assets/data";
+import { headerCoverList, listofInitiatives, routePage } from "../assets/data";
 import HeaderCover from "../components/headerCover";
 import ListOfActivities from "../components/listsofactivities";
 import Navbar1 from "../components/NavBar";
-
+import NextPage from "../components/toNextPage";
 
 
 function InitiativePage(){
@@ -15,8 +15,15 @@ function InitiativePage(){
     <div style={{backgroundColor : "lightblue"}}>
       {listofInitiatives.map(item =>(
       <ListOfActivities key={item.id} item = {item}/>
-      ) )}
+      ))}
     </div>
+
+    <div style={{backgroundColor : "blue"}}>
+      {routePage.filter(item => item.id === 1).map(item =>(
+        <NextPage key={item.id} item = {item}/>
+      ))}
+    </div>
+
     </>
    )
 }

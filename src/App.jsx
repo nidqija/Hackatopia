@@ -2,6 +2,7 @@ import HomePage from './pages/homePage';
 import { useState , useEffect } from 'react';
 import { BrowserRouter as Router, Routes , Route } from 'react-router-dom';
 import InitiativePage from './pages/initiativesPage';
+import JoinUs from './pages/joinus';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
     <Routes>
        <Route path='/' element={<HomePage />}/>
        <Route path='/initiatives' element={<InitiativePage/>} />
+       <Route path='/joinus' element={<JoinUs/>} />
     </Routes>
   </Router>
   );
