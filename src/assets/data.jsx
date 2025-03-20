@@ -1,3 +1,10 @@
+import { RiCommunityFill } from "react-icons/ri";
+import { MdOutlineEmojiPeople } from "react-icons/md";
+import { RiUserCommunityFill } from "react-icons/ri";
+
+
+
+
 export const Datalist = [
    {title:'Stop Violence', description:'Join the movement. Spread the word. Support the victim.'}
 ];
@@ -12,8 +19,19 @@ export const Datalist2 = [
 
 
 export const headerCoverList = [
-    {id : 1 , title : "Our Initiatives" , description : "Ever wondered why we are advocating this campaign? Check out our initiatives for society since our earliest times!"},
-    {id : 2 , title : "Join Us" , description : "dhsfkdjsfjsdlfjsdlfsjdlfjdslfsjdlfklsdfjlsdfj"}
+
+    {
+      id : 1 , 
+      title : "Our Initiatives" ,
+      description : "Ever wondered why we are advocating this campaign? Check out our initiatives for society since our earliest times!"
+    },
+
+    {
+        id : 2 , 
+        title : "Join Us" ,
+        description : "Join the voices of justice. We are currently getting new members and supporters for our campaign! Check out more details below!"
+    }
+
 ]
 
 
@@ -24,8 +42,39 @@ export const listofInitiatives = [
 ]
 
 export const routePage = [
-    {id : 1 , routepage :"/joinus" , title : "go to join us page" , description : "want to join us? go to next session!" , image : "https://content.api.news/v3/images/bin/200279f52dad45b589170f124ae44904"}
+    { 
+        id: 1, 
+        routepage: "/joinus", 
+        title: "Take a Stand - Join the Movement", 
+        description: "Be a voice against violence. Take action now and be part of the change!", 
+        image: "https://content.api.news/v3/images/bin/200279f52dad45b589170f124ae44904" 
+    }
+];
+
+export const joinUsData = [
+    {
+        id: 1,
+        title : "Raise Awareness & Educate Others",
+        description : "Many people are unaware of how widespread violence is or fail to recognize its early warning signs. By participating in this campaign, you can help spread knowledge about the different forms of violence and their consequences.",
+        image : "https://media.istockphoto.com/id/897600234/photo/aids-awareness-concept.jpg?s=612x612&w=0&k=20&c=6rlxQpZwPbdEhCtHIubBsrqry9RYoPm8SqxkLY95sls=",
+        icons : <RiCommunityFill />,
+    },
+    {
+        id: 2,
+        title : "Empower Victims & Survivors",
+        description : "Victims of violence often feel isolated, powerless, and ashamed. Your support can provide them with the courage to speak up, seek help, and begin healing. When we stand together, we send a powerful message that no one has to suffer in silence.",
+        image : "https://media.istockphoto.com/id/1322104312/photo/freedom-chains-that-transform-into-birds-charge-concept.jpg?b=1&s=612x612&w=0&k=20&c=6Cv2tRWUSTZPfhbIhfn9cIq9N0k59EWmEojCZSOy6k8=",
+        icons : <MdOutlineEmojiPeople />,
+    },
+    {
+        id: 3,
+        title : "Create Safer Communities",
+        description : "Everyone deserves to feel safe at home, at work, in schools, and in public spaces. Violence threatens this fundamental right. By supporting this campaign, you contribute to initiatives that promote safety, such as self-defense programs, emergency helplines, and community awareness events. ",
+        image : "https://media.istockphoto.com/id/922107232/photo/businessmans-hands-covering-paper-team-on-table.jpg?s=612x612&w=0&k=20&c=mUw23uzIBUTWlH3irz9R8REutE6_7oMzJcdfJKgeNIM=",
+        icons : <RiUserCommunityFill />,
+    }
 ]
+
 
 
 

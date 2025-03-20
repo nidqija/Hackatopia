@@ -89,3 +89,19 @@ font-family: 20px;
     font-family: 'Hanken Grotesk';
     text-align: justify;
 }
+
+#JoinUsCards{
+  border-color: transparent;
+}
+
+.JoinUsDesc{
+    text-align: justify;
+}
+
+#JoinUsIcons{
+    background-color: lightblue;
+    padding: 6px 10px;
+    border-radius: 55%;
+    color: black;
+    margin: 12px;
+}
