@@ -1,33 +1,59 @@
-import { Container } from 'react-bootstrap';
+import { Container , Row , Card , Col } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+
 
 function UserInfo() {
   return (
     <>
-    <Container>
-    <h1>This is a testing</h1>
-    <Form>
+    <div className='InputForm'>
+    <Container className='p-5'>
+    <h1 style={{fontFamily : "Playfair Display"}}>Be part of our community!</h1>
+    <h6 className='mb-5 mt-3' style={{fontFamily : "Hanken Grotesk"}}>We are currently having 100k+ members and counting!</h6>
+
+  
+
+
+    <Row xs={1} md={2} className="g-4">
+        <Col >
+        <Container>
+          <Card  className='p-5'>
+            <Form>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>
         <Form.Control type="email" placeholder="Enter email" />
-        <Form.Text className="text-muted">
-          We'll never share your email with anyone else.
-        </Form.Text>
       </Form.Group>
 
-      <Form.Group className="mb-3" controlId="formBasicPassword">
-        <Form.Label>Password</Form.Label>
-        <Form.Control type="password" placeholder="Password" />
+      <Form.Group className="mb-3" controlId="formBasicUsername">
+        <Form.Label>Username</Form.Label>
+        <Form.Control type="text" placeholder="Username" />
       </Form.Group>
       <Form.Group className="mb-3" controlId="formBasicCheckbox">
-        <Form.Check type="checkbox" label="Check me out" />
+        <Form.Check type="checkbox" label="Send me a notification" />
       </Form.Group>
       <Button variant="primary" type="submit">
         Submit
       </Button>
     </Form>
-    </Container>
+          </Card>
+          </Container>
+        </Col>
+        <Col >
+          <Card style={{backgroundColor : "transparent" , borderColor : "transparent"}}>
+          <img src="https://t4.ftcdn.net/jpg/00/32/06/91/360_F_32069160_96JpOLqNYK15MBN3UPlXBpZjuj3HyGqx.jpg" alt="" />
+
+            <Card.Body>
+
+            </Card.Body>
+          </Card>
+        </Col>
+    </Row>
+
+
+
+    </Container>   
+    </div>
+   
     </>
   );
 }

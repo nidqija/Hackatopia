@@ -4,6 +4,7 @@ import Navbar1 from "../components/NavBar";
 import Card1 from "../components/cards1";
 import { Container } from "react-bootstrap";
 import Card2 from "../components/cards2";
+import UserInfo from "../components/userSubmit";
 
 function JoinUs() {
     return (
@@ -33,6 +34,7 @@ function JoinUs() {
                     <Card1 key={item.id} item={item} />
                 ))}
             </Container>
+            <UserInfo/>
         </>
     );
 }
