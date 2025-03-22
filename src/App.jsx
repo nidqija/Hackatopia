@@ -3,6 +3,8 @@ import { useState , useEffect } from 'react';
 import { BrowserRouter as Router, Routes , Route } from 'react-router-dom';
 import InitiativePage from './pages/initiativesPage';
 import JoinUs from './pages/joinus';
+import HeadQuaters from './pages/headQuaters';
+
 
 function App() {
 
@@ -25,6 +27,7 @@ function App() {
        <Route path='/' element={<HomePage />}/>
        <Route path='/initiatives' element={<InitiativePage/>} />
        <Route path='/joinus' element={<JoinUs/>} />
+       <Route path='/headquaters' element={<HeadQuaters/>}/>
     </Routes>
   </Router>
   );

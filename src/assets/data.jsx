@@ -30,6 +30,12 @@ export const headerCoverList = [
         id : 2 , 
         title : "Join Us" ,
         description : "Join the voices of justice. We are currently getting new members and supporters for our campaign! Check out more details below!"
+    },
+
+    {
+        id : 3,
+        title : "Our HQ",
+        description : "Check out our HQ around the globe! Our places welcome all people no matter the background ",
     }
 
 ]
@@ -73,6 +79,15 @@ export const joinUsData = [
         image : "https://media.istockphoto.com/id/922107232/photo/businessmans-hands-covering-paper-team-on-table.jpg?s=612x612&w=0&k=20&c=mUw23uzIBUTWlH3irz9R8REutE6_7oMzJcdfJKgeNIM=",
         icons : <RiUserCommunityFill />,
     }
+]
+
+
+export const ourHQdata = [
+   {
+    id : 1,
+    title : "",
+    description : "sajfsadaja",
+   }
 ]
 
 
