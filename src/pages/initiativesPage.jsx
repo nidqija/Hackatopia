@@ -3,6 +3,7 @@ import HeaderCover from "../components/headerCover";
 import ListOfActivities from "../components/listsofactivities";
 import Navbar1 from "../components/NavBar";
 import NextPage from "../components/toNextPage";
+import Credits from "../components/Credits";
 
 
 function InitiativePage(){
@@ -23,6 +24,8 @@ function InitiativePage(){
         <NextPage key={item.id} item = {item}/>
       ))}
     </div>
+    <Credits/>
+
 
     </>
    )

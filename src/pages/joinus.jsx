@@ -5,6 +5,7 @@ import Card1 from "../components/cards1";
 import { Container } from "react-bootstrap";
 import Card2 from "../components/cards2";
 import UserInfo from "../components/userSubmit";
+import Credits from "../components/Credits";
 
 function JoinUs() {
     return (
@@ -35,6 +36,7 @@ function JoinUs() {
                 ))}
             </Container>
             <UserInfo/>
+            <Credits/>
         </>
     );
 }

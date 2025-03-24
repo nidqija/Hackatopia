@@ -1,5 +1,6 @@
 import { headerCoverList, ourHQdata } from "../assets/data";
 import Card3 from "../components/cards3";
+import Credits from "../components/Credits";
 import HeaderCover from "../components/headerCover";
 import Navbar1 from "../components/NavBar";
 import { Container } from "react-bootstrap";
@@ -18,6 +19,7 @@ function HeadQuaters(){
         <Card3 key={item.id} item={item}/>
     ))}
     </Container>
+    <Credits/>
     </>
     )
 }
