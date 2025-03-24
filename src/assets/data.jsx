@@ -86,7 +86,7 @@ export const ourHQdata = [
    {
     id : 1,
     title : "",
-    description : "sajfsadaja",
+    description : "In HQ , we invite everyone to visit us , we are happy to assist you with anything! ",
    }
 ]
 

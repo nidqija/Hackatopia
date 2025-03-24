@@ -4,6 +4,25 @@ function Card3({ item }) {
     return (
         <Container className="p-5">
             <Row xs={1} md={2} className="g-4">
+          
+                <Col md={6}>
+                    <Card className="mb-5 p-2" id="JoinUsCards">
+                        <Card.Body>
+                            <Card.Title className="JoinUsTitle">
+                            <h1 className="" style={{fontFamily : "Hanken Grotesk"}} >UNICEF MALAYSIA</h1>
+                            <h5 className = "text-dark" style={{fontFamily : "Hanken Grotesk"}}>Level 10, </h5>
+                            <h5 className=" text-dark" style={{fontFamily : "Hanken Grotesk"}}>Menara PJH, No.2,</h5>
+                            <h5 className=" text-dark" style={{fontFamily : "Hanken Grotesk"}}>Jalan Tun Abdul Razak, Precint 2</h5>
+                            <h5 className="text-dark mb-4" style={{fontFamily : "Hanken Grotesk"}}>62100, Putrajaya </h5>
+
+          
+                            </Card.Title>
+                            <Card.Text className="JoinUsDesc">
+                                {item.description}
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
                 <Col md={6}>
                     <Card className="mb-5 p-2" id="JoinUsCards">
                         <Card.Body>
@@ -18,19 +37,7 @@ function Card3({ item }) {
                             ></iframe>
                         </Card.Body>
                     </Card>
-                </Col>
-                <Col md={6}>
-                    <Card className="mb-5 p-2" id="JoinUsCards">
-                        <Card.Body>
-                            <Card.Title className="JoinUsTitle">
-                               {item.title}
-                            </Card.Title>
-                            <Card.Text className="JoinUsDesc">
-                                {item.description}
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                </Col>
+                </Col>  
             </Row>
         </Container>
     );
