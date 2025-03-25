@@ -36,6 +36,12 @@ export const headerCoverList = [
         id : 3,
         title : "Our HQ",
         description : "Check out our HQ around the globe! Our places welcome all people no matter the background ",
+    },
+
+    {
+        id : 4,
+        title : "Contact Us",
+        description : "Refer to our contact information for any enquiries or questions from you!",
     }
 
 ]

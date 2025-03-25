@@ -1,6 +1,10 @@
 import React from "react";
-import Container from "react-bootstrap/esm/Container";
 import Navbar1 from "../components/NavBar";
+import HeaderCover from "../components/headerCover";
+import { headerCoverList } from "../assets/data";
+import Credits from "../components/Credits";
+import Card4 from "../components/card4";
+
 
 
 
@@ -8,9 +12,11 @@ function ContactUs(){
     return(
         <>
         <Navbar1/>
-        <Container>
-        <h1>this is a contact page</h1>
-        </Container>
+        {headerCoverList.filter(item => item.id === 4 ).map(item=>(
+        <HeaderCover key={item.id} item={item}/>
+        ))}
+        <Card4/>
+        <Credits/>
         </>
     )
 }
