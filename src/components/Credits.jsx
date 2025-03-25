@@ -4,8 +4,8 @@ import React from 'react';
 
 function Credits(){
     return(
-        <div className="CreditsBackground">
-            <h1 className='text-white'>hello world</h1>
+        <div className="CreditsBackground p-2" bg="dark">
+            <h5 className='text-white text-center' style={{fontFamily : "Hanken Grotesk"}}>copyright Unviolence!</h5>
         </div>
       
     )

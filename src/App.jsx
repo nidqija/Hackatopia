@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes , Route } from 'react-router-dom';
 import InitiativePage from './pages/initiativesPage';
 import JoinUs from './pages/joinus';
 import HeadQuaters from './pages/headQuaters';
+import ContactUs from './pages/contactUs';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
        <Route path='/initiatives' element={<InitiativePage/>} />
        <Route path='/joinus' element={<JoinUs/>} />
        <Route path='/headquaters' element={<HeadQuaters/>}/>
+       <Route path='/contactus' element={<ContactUs/>}/>
     </Routes>
   </Router>
   );
