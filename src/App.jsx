@@ -5,22 +5,32 @@ import InitiativePage from './pages/initiativesPage';
 import JoinUs from './pages/joinus';
 import HeadQuaters from './pages/headQuaters';
 import ContactUs from './pages/contactUs';
+import { supabase } from './createClient';
 
 
 function App() {
 
-  const [data, setData] = useState([{}])
 
-  useEffect(() => {
-    fetch("/members").then(
-      res => res.json()
-    ).then(
-      data => {
-        setData(data)
-        console.log(data)
-      }
-    )
-  } ,[])
+  const [users , setUsers] = useState([]);
+  console.log(users)
+
+
+useEffect(()=>{
+   fetchUsers()
+} , [])
+
+
+
+async function fetchUsers(){
+   const {data} = await supabase
+   .from('users')
+   .select("*")
+   setUsers(data)
+
+}
+
+
+
 
   return (
  <Router>

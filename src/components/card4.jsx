@@ -32,7 +32,8 @@ function Card4(){
                  </Card.Text>
                </Card.Body>
              </Card>
-           </Col>   <Col>
+           </Col>  
+            <Col>
              <Card className='text-center'>
                <Card.Body className='StatisticsBody'>
                  <Card.Title className='StatisticsBodyHeader'>Twitter </Card.Title>
@@ -41,7 +42,8 @@ function Card4(){
                  </Card.Text>
                </Card.Body>
              </Card>
-           </Col>   <Col>
+           </Col>  
+            <Col>
              <Card className='text-center'>
                <Card.Body className='StatisticsBody'>
                  <Card.Title className='StatisticsBodyHeader'>Instagram</Card.Title>
