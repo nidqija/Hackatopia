@@ -1,7 +1,13 @@
 import { Container, Row, Col, Card } from "react-bootstrap";
 
+
+
 function Card2({ item }) {
+
+ 
+
     return (
+        <>
         <Container>
             
             <Row xs={1} md={2} className="g-4">
@@ -27,6 +33,9 @@ function Card2({ item }) {
            
             </Row>
         </Container>
+
+       
+        </>
     );
 }
 
