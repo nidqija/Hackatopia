@@ -10,11 +10,11 @@ function Navbar1() {
             
           <Navbar.Brand href="#home" className='mx-3'>UNVIOLENCE!</Navbar.Brand>
           <Nav className='justify-content-end '>
-            <Nav.Link href="/"  className='mx-3 '>Home</Nav.Link>
-            <Nav.Link href="/initiatives" className='mx-3'>Intiatives</Nav.Link>
-            <Nav.Link href="/headquaters"  className='mx-3'>Our HQ</Nav.Link>
-            <Nav.Link href="/joinus"  className='mx-3'>Join Us</Nav.Link>
-            <Nav.Link href='/contactus' className='mx-3'>Contact Us</Nav.Link>
+            <Nav.Link to="/"  className='mx-3 '>Home</Nav.Link>
+            <Nav.Link to="/initiatives" className='mx-3'>Intiatives</Nav.Link>
+            <Nav.Link to="/headquaters"  className='mx-3'>Our HQ</Nav.Link>
+            <Nav.Link to="/joinus"  className='mx-3'>Join Us</Nav.Link>
+            <Nav.Link to='/contactus' className='mx-3'>Contact Us</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
